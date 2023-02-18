@@ -1,5 +1,5 @@
 import { Provider } from "react-redux";
-import { store } from "../store/features";
+import { store } from "../store/index";
 
 export interface WrapperProps {
   children: JSX.Element | JSX.Element[];
